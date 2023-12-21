@@ -17,10 +17,8 @@ function Name(props){
        {hobbies && (
             //display something here 
             <div>
-            
             My hobbies are 
                 <ul>
-                   
                    {hobbies.map((element , index) => 
                     {
                         return (
@@ -31,9 +29,7 @@ function Name(props){
                             </li>
                         )
                     })
-
                    }
-                
                 </ul>
             </div>
         )}
@@ -49,3 +45,5 @@ function Name(props){
 }
 
 export default Name
+
+//nested props on thrusday
